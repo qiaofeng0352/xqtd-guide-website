@@ -1,0 +1,15 @@
+把截图放进本目录，文件名保持一致，push 后自动显示。
+
+【首页卡片封面 - 建议 800×450 JPG】
+card-team-qianye.jpg      千冶刃配队攻略
+card-abyss-xingqi.jpg     星启模式攻略
+card-chest-pinnocchio.jpg 匹诺康尼宝箱
+card-material-relic.jpg   遗器速刷
+
+【千冶刃攻略正文 - 建议 1200 宽 JPG】
+team-qianye-panel.jpg     角色面板截图
+team-qianye-team.jpg      配队界面截图
+team-qianye-relic.jpg     遗器搭配截图
+
+【可选】
+hero-bg.jpg               首页顶部背景（宽图）

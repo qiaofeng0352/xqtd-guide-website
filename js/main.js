@@ -10,7 +10,23 @@
     }
   };
 
+  function initImages() {
+    document.querySelectorAll('.card-cover, .article-img').forEach(function (img) {
+      img.addEventListener('load', function () {
+        var placeholder = this.parentElement.querySelector('.placeholder-text');
+        if (placeholder) placeholder.style.display = 'none';
+        var wrap = this.closest('.img-placeholder');
+        if (wrap) wrap.classList.add('has-image');
+      });
+      img.addEventListener('error', function () {
+        this.style.display = 'none';
+      });
+    });
+  }
+
   document.addEventListener('DOMContentLoaded', function () {
+    initImages();
+
     var toggle = document.querySelector('.nav-mobile-toggle');
     var navLinks = document.getElementById('navLinks');
 
