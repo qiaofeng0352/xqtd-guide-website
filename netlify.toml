@@ -1,0 +1,49 @@
+[build]
+  publish = "."
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/css/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/js/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+[[redirects]]
+  from = "/guides/team/"
+  to = "/guides/team-qianye.html"
+  status = 302
+
+[[redirects]]
+  from = "/guides/abyss/"
+  to = "/guides/abyss-xingqi.html"
+  status = 302
+
+[[redirects]]
+  from = "/guides/chest/"
+  to = "/guides/chest-pinnocchio.html"
+  status = 302
+
+[[redirects]]
+  from = "/guides/material/"
+  to = "/guides/material-relic.html"
+  status = 302
+
+[[redirects]]
+  from = "/guides/update/"
+  to = "/"
+  status = 302
