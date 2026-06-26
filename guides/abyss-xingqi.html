@@ -26,18 +26,18 @@
 <body>
 <header class="site-header">
   <div class="nav-container">
-    <a class="logo" href="/">
+    <a href="../index.html" class="logo">
       <div class="logo-icon">SR</div>
       <div class="logo-text">星穹铁道攻略站<small>崩坏：星穹铁道 | 单人原创攻略</small></div>
     </a>
     <nav>
       <ul class="nav-links" id="navLinks">
-        <li><a href="/">首页</a></li>
-        <li><a href="team/">角色配队</a></li>
-        <li><a href="abyss/">深渊攻略</a></li>
-        <li><a href="chest/">宝箱收集</a></li>
-        <li><a href="material/">材料速刷</a></li>
-        <li><a href="update/">版本更新</a></li>
+        <li><a href="../index.html">首页</a></li>
+        <li><a href="team-qianye.html">角色配队</a></li>
+        <li><a href="abyss-xingqi.html" class="active">深渊攻略</a></li>
+        <li><a href="chest-pinnocchio.html">宝箱收集</a></li>
+        <li><a href="material-relic.html">材料速刷</a></li>
+        <li><a href="../index.html#update">版本更新</a></li>
         <li><a href="../pages/about.html">关于</a></li>
       </ul>
     </nav>
@@ -46,17 +46,17 @@
 </header>
 <div class="page-wrapper">
   <main class="main-content">
-    <nav class="breadcrumb"><a href="/">首页</a> &rsaquo; <a href="abyss/">深渊攻略</a> &rsaquo; 星启模式</nav>
-    <header class="article-header">
+    <div class="article-header">
+      <div class="article-breadcrumb"><a href="../index.html">首页</a> / <a href="abyss-xingqi.html">深渊攻略</a> / 星启模式</div>
       <span class="card-tag abyss">深渊攻略</span>
-      <h1>星穹铁道星启模式配队推荐与自动满星攻略</h1>
+      <h1 class="article-title">星穹铁道星启模式配队推荐与自动满星攻略</h1>
       <div class="article-meta">
-        <span>📅 更新：2026.06.22</span>
-        <span>🏷️ 4.3版本</span>
-        <span>⏱️ 阅读约 7 分钟</span>
+        <span>更新时间：2026.06.22</span>
+        <span>版本：4.3</span>
+        <span>阅读时间：7分钟</span>
       </div>
-    </header>
-    <article class="article-content">
+    </div>
+    <div class="article-body">
       <p>星启模式是 4.x 版本推出的三路轮换深渊玩法，对配队广度和自动战斗稳定性要求较高。本文提供各间机制解读、平民满星阵容与自动战斗设置建议。</p>
 
       <h2>星启模式基础规则</h2>
@@ -74,7 +74,7 @@
         <li>黄泉终结技对群爆发，佩拉减防提升全体伤害</li>
         <li>加拉赫提供治疗与击破辅助，保证自动战斗续航</li>
       </ul>
-      <div class="tip-box"><strong>自动技巧：</strong>开启「终结技优先」与「战技连携」，黄泉间优先叠残梦层数再开大。</div>
+      <div class="callout callout-tip"><strong>自动技巧：</strong>开启「终结技优先」与「战技连携」，黄泉间优先叠残梦层数再开大。</div>
 
       <h2>第二间：单体 Boss</h2>
       <p>高血量单体，需要持续输出与破盾效率。</p>
@@ -106,39 +106,46 @@
       </ol>
 
       <h2>自动满星通用设置</h2>
-      <table>
-        <thead><tr><th>设置项</th><th>建议</th></tr></thead>
-        <tbody>
-          <tr><td>战斗速度</td><td>×2 速，节省时间</td></tr>
-          <tr><td>终结技</td><td>手动或半自动，避免 AI 空大</td></tr>
-          <tr><td>保留大招</td><td>Boss 战留到破盾/虚弱期</td></tr>
-          <tr><td>重开条件</td><td>前 2 轮未破盾建议直接重开</td></tr>
-        </tbody>
-      </table>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>设置项</th><th>建议</th></tr></thead>
+          <tbody>
+            <tr><td>战斗速度</td><td>×2 速，节省时间</td></tr>
+            <tr><td>终结技</td><td>手动或半自动，避免 AI 空大</td></tr>
+            <tr><td>保留大招</td><td>Boss 战留到破盾/虚弱期</td></tr>
+            <tr><td>重开条件</td><td>前 2 轮未破盾建议直接重开</td></tr>
+          </tbody>
+        </table>
+      </div>
 
       <h2>总结</h2>
       <p>星启模式满星核心在于<strong>三间不重复</strong>与<strong>每间定位清晰</strong>：第一间对群、第二间对单、第三间带机制对策。自动战斗可行，但 Boss 间建议手动释放关键终结技以提高稳定性。</p>
-    </article>
-  </main>
-  <aside class="sidebar">
-    <div class="sidebar-block">
-      <div class="sidebar-title">📌 本文标签</div>
-      <div class="tags-cloud">
+      <div class="tags-row">
         <span class="tag">星启模式</span><span class="tag">深渊满星</span><span class="tag">配队推荐</span>
         <span class="tag">自动战斗</span><span class="tag">4.3版本</span>
       </div>
+    </div>
+  </main>
+  <aside class="sidebar">
+    <div class="sidebar-block">
+      <div class="sidebar-title">最新攻略</div>
+      <ul class="sidebar-list">
+        <li><a href="team-qianye.html">千冶刃配队推荐</a></li>
+        <li><a href="abyss-xingqi.html">星启模式自动满星</a></li>
+        <li><a href="chest-pinnocchio.html">匹诺康尼宝箱全收集</a></li>
+      </ul>
     </div>
   </aside>
 </div>
 <footer class="site-footer">
   <div class="footer-inner">
-    <p class="footer-copy">&copy; 2026 星穹铁道攻略站 xqtd-guide.com</p>
-    <ul class="footer-links">
-      <li><a href="../pages/about.html">关于本站</a></li>
-      <li><a href="../pages/privacy.html">隐私政策</a></li>
-      <li><a href="../pages/disclaimer.html">免责声明</a></li>
-    </ul>
-    <p class="footer-disclaimer">本站为玩家自发整理的攻略网站，与 miHoYo / HoYoverse 无任何关联。</p>
+    <div class="footer-links">
+      <a href="../index.html">首页</a>
+      <a href="../pages/about.html">关于本站</a>
+      <a href="../pages/privacy.html">隐私政策</a>
+      <a href="../pages/disclaimer.html">免责声明</a>
+    </div>
+    <div class="footer-copy">星穹铁道攻略站 &copy; 2026 xqtd-guide.com</div>
   </div>
 </footer>
 <script src="../js/main.js"></script>

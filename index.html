@@ -17,79 +17,58 @@
   "inLanguage": "zh-CN"
 }
 </script>
-<script>
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?YOUR_BAIDU_ID";
-  var s = document.getElementsByTagName("script")[0];
-  s.parentNode.insertBefore(hm, s);
-})();
-</script>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', 'G-XXXXXXXXXX');
-</script>
 <link rel="stylesheet" href="css/style.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;600;700&family=Noto+Serif+SC:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
+
 <header class="site-header">
   <div class="nav-container">
-    <a class="logo" href="/">
+    <a href="index.html" class="logo">
       <div class="logo-icon">SR</div>
       <div class="logo-text">星穹铁道攻略站<small>崩坏：星穹铁道 | 单人原创攻略</small></div>
     </a>
     <nav>
       <ul class="nav-links" id="navLinks">
-        <li><a class="active" href="/">首页</a></li>
-        <li><a href="guides/team/">角色配队</a></li>
-        <li><a href="guides/abyss/">深渊攻略</a></li>
-        <li><a href="guides/chest/">宝箱收集</a></li>
-        <li><a href="guides/material/">材料速刷</a></li>
-        <li><a href="guides/update/">版本更新</a></li>
+        <li><a href="index.html" class="active">首页</a></li>
+        <li><a href="guides/team-qianye.html">角色配队</a></li>
+        <li><a href="guides/abyss-xingqi.html">深渊攻略</a></li>
+        <li><a href="guides/chest-pinnocchio.html">宝箱收集</a></li>
+        <li><a href="guides/material-relic.html">材料速刷</a></li>
+        <li><a href="index.html#update">版本更新</a></li>
         <li><a href="pages/about.html">关于</a></li>
       </ul>
     </nav>
     <button class="nav-mobile-toggle" onclick="document.getElementById('navLinks').classList.toggle('active')">&#9776;</button>
   </div>
 </header>
+
 <div class="page-wrapper">
   <main class="main-content">
-    <div class="hero">
-      <div class="hero-content">
-        <div class="hero-badge">🔥 4.3版本攻略已更新</div>
-        <h1>崩坏：星穹铁道攻略站</h1>
-        <p>专注角色配队、深渊满星、宝箱全收集、材料速刷。<br>单人站长纯原创攻略，无弹窗广告，面向搜索玩家。</p>
-        <div class="hero-meta">
-          <span>📌 最新版本：4.3</span>
-          <span>📖 攻略总数：120+</span>
-          <span>🕐 更新时间：2026.06.24</span>
-        </div>
+
+    <div class="hero has-bg">
+      <div class="hero-badge">4.3版本攻略已更新</div>
+      <h1>崩坏：星穹铁道攻略站</h1>
+      <p>专注角色配队、深渊满星、宝箱全收集、材料速刷。单人站长纯原创攻略，无弹窗广告，面向搜索玩家。</p>
+      <div class="hero-meta">
+        <span>最新版本：4.3</span>
+        <span>攻略总数：120+</span>
+        <span>更新时间：2026.06.24</span>
       </div>
     </div>
+
     <div class="announcement-bar">
       <span class="label">公告</span>
       <p>4.3版本「千冶·刃」角色攻略已上线，含配队推荐、遗器搭配、光锥选择及材料速刷路线。</p>
     </div>
-    <div class="ad-row">
-      <div class="ad-container">
-        <div class="ad-placeholder">
-          <span>📢 广告位 — Google AdSense 审核通过后显示</span>
-          <small>本网站靠广告维持运营，感谢您的理解与支持</small>
-        </div>
-      </div>
-    </div>
+
     <div class="section-header">
-      <h2>🔥 热门攻略</h2>
-      <a class="more-link" href="guides/team/">查看更多 →</a>
+      <h2>热门攻略</h2>
+      <a href="guides/team-qianye.html" class="more-link">查看更多 &rarr;</a>
     </div>
     <div class="card-grid">
-      <a class="card" href="guides/team-qianye.html">
+      <a href="guides/team-qianye.html" class="card">
         <div class="card-img"><span class="placeholder-text">千冶·刃配队攻略</span></div>
         <div class="card-body">
           <span class="card-tag team">角色配队</span>
@@ -98,7 +77,7 @@ gtag('config', 'G-XXXXXXXXXX');
           <div class="card-meta"><span>2026.06.24</span><span>配队攻略</span></div>
         </div>
       </a>
-      <a class="card" href="guides/abyss-xingqi.html">
+      <a href="guides/abyss-xingqi.html" class="card">
         <div class="card-img"><span class="placeholder-text">星启模式攻略</span></div>
         <div class="card-body">
           <span class="card-tag abyss">深渊攻略</span>
@@ -107,7 +86,7 @@ gtag('config', 'G-XXXXXXXXXX');
           <div class="card-meta"><span>2026.06.22</span><span>深渊攻略</span></div>
         </div>
       </a>
-      <a class="card" href="guides/chest-pinnocchio.html">
+      <a href="guides/chest-pinnocchio.html" class="card">
         <div class="card-img"><span class="placeholder-text">匹诺康尼宝箱全收集</span></div>
         <div class="card-body">
           <span class="card-tag chest">宝箱收集</span>
@@ -116,7 +95,7 @@ gtag('config', 'G-XXXXXXXXXX');
           <div class="card-meta"><span>2026.06.20</span><span>收集攻略</span></div>
         </div>
       </a>
-      <a class="card" href="guides/material-relic.html">
+      <a href="guides/material-relic.html" class="card">
         <div class="card-img"><span class="placeholder-text">遗器速刷路线</span></div>
         <div class="card-body">
           <span class="card-tag material">材料速刷</span>
@@ -126,58 +105,115 @@ gtag('config', 'G-XXXXXXXXXX');
         </div>
       </a>
     </div>
+
     <div class="section-header">
-      <h2>📝 最新攻略</h2>
-      <a class="more-link" href="guides/update/">查看全部 →</a>
+      <h2>角色图鉴</h2>
+      <a href="guides/team-qianye.html" class="more-link">查看全部 &rarr;</a>
+    </div>
+    <div class="card-grid cols-4">
+      <a href="guides/team-qianye.html" class="char-card">
+        <div class="char-avatar path-dest">刃</div>
+        <div class="char-name">千冶·刃</div>
+        <div class="char-path">毁灭</div>
+      </a>
+      <a href="guides/team-qianye.html" class="char-card">
+        <div class="char-avatar path-nih">泉</div>
+        <div class="char-name">黄泉</div>
+        <div class="char-path">虚无</div>
+      </a>
+      <a href="guides/abyss-xingqi.html" class="char-card">
+        <div class="char-avatar path-hunt">霄</div>
+        <div class="char-name">飞霄</div>
+        <div class="char-path">巡猎</div>
+      </a>
+      <a href="guides/team-qianye.html" class="char-card">
+        <div class="char-avatar path-har">云</div>
+        <div class="char-name">停云</div>
+        <div class="char-path">同谐</div>
+      </a>
+    </div>
+
+    <div class="section-header">
+      <h2>玩法攻略</h2>
+    </div>
+    <div class="card-grid cols-3">
+      <a href="guides/abyss-xingqi.html" class="mode-entry">
+        <div class="mode-icon" style="background:rgba(232,168,56,0.15);color:var(--accent);">&#9733;</div>
+        <div class="mode-name">深渊攻略</div>
+        <div class="mode-desc">忘却之庭、星启模式满星配队与自动战斗技巧</div>
+      </a>
+      <a href="guides/chest-pinnocchio.html" class="mode-entry">
+        <div class="mode-icon" style="background:rgba(91,196,122,0.15);color:var(--success);">&#9670;</div>
+        <div class="mode-name">宝箱全收集</div>
+        <div class="mode-desc">匹诺康尼、流梦礁等区域宝箱位置标注</div>
+      </a>
+      <a href="guides/material-relic.html" class="mode-entry">
+        <div class="mode-icon" style="background:rgba(138,141,154,0.15);color:var(--muted);">&#9679;</div>
+        <div class="mode-name">材料速刷</div>
+        <div class="mode-desc">遗器刷取路线、体力分配与主词条选择</div>
+      </a>
+    </div>
+
+    <div class="section-header" id="update">
+      <h2>最新攻略</h2>
     </div>
     <div class="post-list">
       <article class="post-item"><span class="post-date">06.24</span><a href="guides/team-qianye.html">千冶刃全面评测：0命还是2命？平民抽取建议</a></article>
       <article class="post-item"><span class="post-date">06.22</span><a href="guides/abyss-xingqi.html">星启模式第三间满星攻略：低配阵容推荐</a></article>
       <article class="post-item"><span class="post-date">06.20</span><a href="guides/chest-pinnocchio.html">匹诺康尼流梦礁隐藏宝箱位置全标注</a></article>
       <article class="post-item"><span class="post-date">06.18</span><a href="guides/material-relic.html">4.3版本最优体力分配：先刷遗器还是先刷材料？</a></article>
-      <article class="post-item"><span class="post-date">06.16</span><a href="guides/team-qianye.html">千冶刃光锥选择：专武VS星神陨落伤害对比</a></article>
     </div>
+
   </main>
+
   <aside class="sidebar">
-    <div class="sidebar-block ad-sticky">
-      <div class="sidebar-title">🎯 广告</div>
-      <div class="ad-container">
-        <div class="ad-placeholder"><span>📢 广告位</span><small>AdSense 审核通过后显示</small></div>
+    <div class="ad-slot">
+      <div class="ad-slot-label">推荐</div>
+      <div class="ad-slot-content">
+        <strong>游戏加速器限时领取</strong><br>
+        新用户免费领30天加速时长
       </div>
-    </div>
-    <div class="sidebar-block promo-block">
-      <div class="sidebar-title">⚡ 游戏加速器</div>
-      <div class="promo-item">
-        <p class="promo-text">玩外服星穹铁道卡顿？免费领30天加速时长！</p>
-        <a href="#" class="btn btn-primary btn-small promo-link" onclick="trackClick('accelerator-uu')" target="_blank" rel="nofollow noopener">🚀 免费领取 &gt;</a>
-      </div>
-    </div>
-    <div class="sidebar-block promo-block">
-      <div class="sidebar-title">🎁 专属礼包</div>
-      <div class="promo-item">
-        <p class="promo-text">星穹铁道新玩家礼包：星琼×300 + 信用点×50000</p>
-        <a href="#" class="btn btn-outline btn-small promo-link" onclick="trackClick('gift-basic')" target="_blank" rel="nofollow noopener">🎁 领取礼包 &gt;</a>
-      </div>
+      <a href="#" class="btn btn-primary btn-small" onclick="trackClick('accelerator-uu')" rel="nofollow noopener">立即领取</a>
     </div>
     <div class="sidebar-block">
-      <div class="sidebar-title">📌 热门标签</div>
-      <div class="tags-cloud">
-        <span class="tag">千冶刃</span><span class="tag">配队推荐</span><span class="tag">深渊满星</span>
-        <span class="tag">宝箱收集</span><span class="tag">遗器搭配</span><span class="tag">光锥选择</span>
-        <span class="tag">材料速刷</span><span class="tag">4.3版本</span>
+      <div class="sidebar-title">最新攻略</div>
+      <ul class="sidebar-list">
+        <li><a href="guides/team-qianye.html">千冶刃配队推荐<span class="new-tag">NEW</span></a></li>
+        <li><a href="guides/abyss-xingqi.html">星启模式自动满星</a></li>
+        <li><a href="guides/chest-pinnocchio.html">匹诺康尼宝箱全收集</a></li>
+        <li><a href="guides/material-relic.html">金遗器刷取攻略</a></li>
+      </ul>
+    </div>
+    <div class="ad-slot">
+      <div class="ad-slot-label">福利</div>
+      <div class="ad-slot-content">
+        <strong>星穹铁道专属礼包</strong><br>
+        星琼 x300 + 信用点 x50000
+      </div>
+      <a href="#" class="btn btn-outline btn-small" onclick="trackClick('gift-basic')" rel="nofollow noopener">领取礼包</a>
+    </div>
+    <div class="sidebar-block">
+      <div class="sidebar-title">热门标签</div>
+      <div class="tags-row">
+        <span class="tag">千冶刃</span>
+        <span class="tag">配队推荐</span>
+        <span class="tag">深渊满星</span>
+        <span class="tag">宝箱收集</span>
+        <span class="tag">4.3版本</span>
       </div>
     </div>
   </aside>
 </div>
+
 <footer class="site-footer">
   <div class="footer-inner">
-    <p class="footer-copy">&copy; 2026 星穹铁道攻略站 xqtd-guide.com</p>
-    <ul class="footer-links">
-      <li><a href="pages/about.html">关于本站</a></li>
-      <li><a href="pages/privacy.html">隐私政策</a></li>
-      <li><a href="pages/disclaimer.html">免责声明</a></li>
-    </ul>
-    <p class="footer-disclaimer">本站为玩家自发整理的攻略网站，与 miHoYo / HoYoverse 无任何关联。《崩坏：星穹铁道》及相关素材版权归 miHoYo 所有。</p>
+    <div class="footer-links">
+      <a href="index.html">首页</a>
+      <a href="pages/about.html">关于本站</a>
+      <a href="pages/privacy.html">隐私政策</a>
+      <a href="pages/disclaimer.html">免责声明</a>
+    </div>
+    <div class="footer-copy">星穹铁道攻略站 &copy; 2026 xqtd-guide.com | 本站与 miHoYo / HoYoverse 无任何关联</div>
   </div>
 </footer>
 <script src="js/main.js"></script>
