@@ -1,6 +1,15 @@
 (function () {
   'use strict';
 
+  window._hmt = window._hmt || [];
+  (function () {
+    var hm = document.createElement('script');
+    hm.src = 'https://hm.baidu.com/hm.js?f1ab4249377966629a8883050444d09c';
+    hm.async = true;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(hm, s);
+  })();
+
   window.trackClick = function (label) {
     if (typeof gtag === 'function') {
       gtag('event', 'click', { event_category: 'promo', event_label: label });
