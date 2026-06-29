@@ -21,16 +21,22 @@
 
   function initImages() {
     document.querySelectorAll('.card-cover, .article-img').forEach(function (img) {
+      if (img.complete && img.naturalWidth > 0) {
+        markImageLoaded(img);
+      }
       img.addEventListener('load', function () {
-        var placeholder = this.parentElement.querySelector('.placeholder-text');
-        if (placeholder) placeholder.style.display = 'none';
-        var wrap = this.closest('.img-placeholder');
-        if (wrap) wrap.classList.add('has-image');
-      });
-      img.addEventListener('error', function () {
-        this.style.display = 'none';
+        markImageLoaded(this);
       });
     });
+  }
+
+  function markImageLoaded(img) {
+    var placeholder = img.parentElement.querySelector('.placeholder-text');
+    if (placeholder) placeholder.style.display = 'none';
+    var wrap = img.closest('.img-placeholder');
+    if (wrap) wrap.classList.add('has-image');
+    var cardImg = img.closest('.card-img');
+    if (cardImg) cardImg.classList.add('has-image');
   }
 
   document.addEventListener('DOMContentLoaded', function () {

@@ -1344,6 +1344,10 @@ a:hover { color: var(--accent); }
   pointer-events: none;
 }
 
+.card-img.has-image {
+  background: transparent;
+}
+
 .card-img .card-cover {
   position: absolute;
   inset: 0;
