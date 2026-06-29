@@ -5,6 +5,11 @@
   pretty_urls = false
 
 [[headers]]
+  for = "/index.html"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
   for = "/*"
   [headers.values]
     X-Frame-Options = "SAMEORIGIN"
@@ -25,6 +30,24 @@
   for = "/images/*"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
+
+[[redirects]]
+  from = "/index.html"
+  to = "/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/index.html/images/*"
+  to = "/images/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/guides/images/*"
+  to = "/images/:splat"
+  status = 301
+  force = true
 
 [[redirects]]
   from = "/guides/team/"
