@@ -326,6 +326,65 @@ body {
   flex: 1;
 }
 
+.featured-strip {
+  margin-bottom: 1.5rem;
+}
+
+.featured-strip-link {
+  display: grid;
+  grid-template-columns: minmax(0, 280px) 1fr;
+  gap: 1rem;
+  align-items: center;
+  padding: 0.8rem;
+  border: 1px solid var(--rule);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.02);
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.2s, transform 0.2s;
+}
+
+.featured-strip-link:hover {
+  border-color: rgba(90, 168, 224, 0.45);
+  transform: translateY(-1px);
+}
+
+.featured-strip-link img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+  object-fit: cover;
+  aspect-ratio: 16 / 9;
+}
+
+.featured-strip-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
+.featured-strip-text .label {
+  align-self: flex-start;
+  background: rgba(90, 168, 224, 0.15);
+  color: var(--accent3);
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+}
+
+.featured-strip-text strong {
+  font-size: 1.05rem;
+  line-height: 1.45;
+}
+
+@media (max-width: 720px) {
+  .featured-strip-link {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* ===== 分区标题 ===== */
 .section-header {
   display: flex;
