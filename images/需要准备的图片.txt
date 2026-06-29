@@ -7,9 +7,16 @@ card-chest-pinnocchio.jpg 匹诺康尼宝箱
 card-material-relic.jpg   遗器速刷
 
 【攻略正文 - 宽不超过 720px，竖图建议高度 ≤480px】
-team-qianye-panel.jpg     角色面板截图
-team-qianye-team.jpg      配队界面截图
-team-qianye-relic.jpg     遗器搭配截图
+team-qianye-panel.jpg     角色面板（竖图，只框角色详情区，宽≤360px）
+team-qianye-team.jpg      配队界面（横图 16:9，只框四人队伍区域）
+team-qianye-relic.jpg     遗器搭配（横图 800×450，只框遗器界面）
+
+【千冶刃攻略 · 截图怎么截】
+1. 游戏窗口 1920×1080 或 1600×900，不要用超宽屏整屏截
+2. 角色面板：Snipaste 框选左侧角色属性面板 → 保存 team-qianye-panel.jpg
+3. 配队界面：框选「队伍配置」四人区域（约 16:9）→ team-qianye-team.jpg
+4. 遗器界面：框选遗器套装/主词条区域 → team-qianye-relic.jpg
+5. 保存到 images\ 后告诉我 push
 
 【可选】
 hero-bg.jpg               首页顶部背景（宽图）

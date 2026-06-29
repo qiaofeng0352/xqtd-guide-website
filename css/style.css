@@ -1359,16 +1359,24 @@ a:hover { color: var(--accent); }
   z-index: 1;
 }
 
-.article-img-wrap {
-  min-height: auto;
-  padding: 0.75rem;
+/* 攻略正文配图 — 覆盖 .img-placeholder 的 flex/最小高度，避免拉伸变形 */
+.article-img-wrap.img-placeholder {
+  display: block;
+  min-height: 0;
+  padding: 0.75rem 0.75rem 0.5rem;
   margin: 1.2rem 0;
   border: 1px solid var(--rule);
   border-style: solid;
-  overflow: hidden;
   background: var(--bg3);
-  border-radius: 8px;
   text-align: center;
+}
+
+.article-img-wrap.img-placeholder .img-label {
+  display: block;
+  margin: 0.5rem 0 0;
+  padding: 0 0.5rem 0.25rem;
+  color: var(--muted);
+  font-size: 0.75rem;
 }
 
 .article-img-wrap .article-img {
@@ -1376,10 +1384,22 @@ a:hover { color: var(--accent); }
   max-height: 420px;
   width: auto;
   height: auto;
-  display: inline-block;
+  display: block;
+  margin: 0 auto;
   object-fit: contain;
   border-radius: 6px;
-  vertical-align: middle;
+}
+
+/* 竖屏角色面板（窄图） */
+.article-img-wrap .article-img.is-portrait {
+  max-width: min(100%, 360px);
+  max-height: 520px;
+}
+
+/* 横屏配队/战斗界面（宽图） */
+.article-img-wrap .article-img.is-landscape {
+  max-width: 100%;
+  max-height: 380px;
 }
 
 .img-placeholder.has-image {
