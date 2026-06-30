@@ -1244,6 +1244,18 @@ a:hover { color: var(--accent); }
   border-color: rgba(232, 168, 56, 0.25);
 }
 
+.promo-code {
+  display: inline-block;
+  margin: 0.15rem 0;
+  padding: 0.1rem 0.45rem;
+  border-radius: 4px;
+  background: rgba(232, 168, 56, 0.15);
+  color: var(--accent);
+  font-weight: 700;
+  font-family: ui-monospace, Consolas, monospace;
+  letter-spacing: 0.05em;
+}
+
 .baidu-ad-placeholder {
   color: var(--muted);
   font-size: 0.82rem;
