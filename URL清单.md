@@ -59,7 +59,7 @@
 | S1 | 站点地图 | https://xqtd-guide.com/sitemap.xml | robots.txt 已声明；平台 sitemap 提交暂置灰可等 |
 | S2 | 爬虫规则 | https://xqtd-guide.com/robots.txt | |
 | S3 | 广告认证 | https://xqtd-guide.com/ads.txt | 可选；当前主用 CPS 推广 |
-| S4 | 百度验证文件 | https://xqtd-guide.com/baidu_verify_codeva-hmn2tEVvre.html | 2026-08 重新验证 |
+| S4 | 百度验证文件 | https://xqtd-guide.com/baidu_verify_codeva-hmn2tEVvre.html | 双后缀 .html.html 规避 CF 308 |
 | S5 | 404 页 | https://xqtd-guide.com/404.html | 不主动提交 |
 
 ---
