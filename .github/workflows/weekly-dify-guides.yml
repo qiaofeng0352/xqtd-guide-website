@@ -1,0 +1,56 @@
+# 每周一 9:00（北京时间）调用 Dify 工作流，结果写入 GitHub Issue
+# 使用前在仓库 Settings → Secrets 添加：
+#   DIFY_API_URL  例：https://你的dify域名/v1/workflows/run
+#   DIFY_API_KEY  例：app-xxxxxxxx
+
+name: Weekly Dify Guides
+
+on:
+  schedule:
+    - cron: '0 1 * * 1'   # UTC 周一 01:00 = 北京时间 09:00
+  workflow_dispatch:       # 允许手动触发
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Call Dify workflow
+        id: dify
+        env:
+          DIFY_API_URL: ${{ secrets.DIFY_API_URL }}
+          DIFY_API_KEY: ${{ secrets.DIFY_API_KEY }}
+        run: |
+          if [ -z "$DIFY_API_URL" ] || [ -z "$DIFY_API_KEY" ]; then
+            echo "Skip: DIFY_API_URL or DIFY_API_KEY not configured"
+            exit 0
+          fi
+          resp=$(curl -sS -X POST "$DIFY_API_URL" \
+            -H "Authorization: Bearer $DIFY_API_KEY" \
+            -H "Content-Type: application/json" \
+            -d '{"inputs":{},"response_mode":"blocking","user":"github-weekly"}')
+          echo "$resp" > dify-output.json
+          text=$(python3 -c "import json; d=json.load(open('dify-output.json')); print(d.get('data',{}).get('outputs',{}).get('article_markdown', d.get('answer','')[:8000]))")
+          echo "preview<<EOF" >> $GITHUB_OUTPUT
+          echo "$text" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+      - name: Create issue with generated guides
+        if: steps.dify.outputs.preview != ''
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            let body = '## 本周 Dify 生成的攻略\n\n';
+            body += '复制以下内容到 Cursor，说：**按 xqtd-weekly-guides 发布**\n\n';
+            body += '---\n\n';
+            try {
+              body += fs.readFileSync('dify-output.json', 'utf8').slice(0, 60000);
+            } catch (e) {
+              body += '${{ steps.dify.outputs.preview }}';
+            }
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `📋 每周攻略待发布 - ${new Date().toISOString().slice(0,10)}`,
+              body: body
+            });
