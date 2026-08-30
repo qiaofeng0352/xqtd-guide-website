@@ -20,3 +20,12 @@ team-qianye-relic.jpg     遗器搭配（横图 800×450，只框遗器界面）
 
 【可选】
 hero-bg.jpg               首页顶部背景（宽图）
+
+【2026-08-30 已补 AI 原创插画（无版权风险）】
+images/banners/card-codes.jpg               兑换码页封面+头图
+images/banners/card-version-45.jpg          4.5前瞻卡片+头图
+images/banners/card-robin-summeretto.jpg    知更鸟卡片+头图
+images/banners/card-aventurine-waveflair.jpg 砂金卡片+头图
+images/characters/*.jpg                     10个角色图鉴插画（firefly/acheron/sparkle/ruanmei/jingliu/danheng/kafka/silverwolf/blackswan/bronya）
+均已嵌入 index.html、各攻略页正文头图和 og:image。
+游戏截图（千冶刃遗器界面的 team-qianye-relic.jpg 等）仍需自行截图补充。

@@ -34,6 +34,12 @@
 | 20 | 黑天鹅角色图鉴 | https://xqtd-guide.com/guides/blackswan-guide.html | 角色图鉴 | ✅ | | | 2026-08-18 | |
 | 21 | 银狼角色图鉴 | https://xqtd-guide.com/guides/silverwolf-guide.html | 角色图鉴 | ✅ | | | 2026-08-18 | |
 | 22 | 布洛妮娅角色图鉴 | https://xqtd-guide.com/guides/bronya-guide.html | 角色图鉴 | ✅ | | | 2026-08-18 | |
+| 23 | 4.5卡池抽取分析 | https://xqtd-guide.com/guides/version-45-gacha.html | 抽卡攻略 | ✅ | | | 2026-08-30 | 关键词"4.5卡池值得抽吗" |
+| 24 | 4.5深渊满星攻略 | https://xqtd-guide.com/guides/abyss-45.html | 深渊攻略 | ✅ | | | 2026-08-30 | 关键词"4.5深渊满星" |
+| 25 | 缇宝角色图鉴 | https://xqtd-guide.com/guides/tribbie-guide.html | 角色图鉴 | ✅ | | | 2026-08-30 | 关键词"缇宝配队" |
+| 26 | 流萤配队专题 | https://xqtd-guide.com/guides/firefly-team.html | 专题子页 | ✅ | | | 2026-08-30 | 关键词"流萤配队"，长尾词矩阵试点 |
+| 27 | 流萤光锥专题 | https://xqtd-guide.com/guides/firefly-lightcone.html | 专题子页 | ✅ | | | 2026-08-30 | 关键词"流萤光锥"，长尾词矩阵试点 |
+| 28 | 流萤遗器专题 | https://xqtd-guide.com/guides/firefly-relic.html | 专题子页 | ✅ | | | 2026-08-30 | 关键词"流萤遗器"，长尾词矩阵试点 |
 
 **百度已提交**：填 `是` / `否` / 提交日期（如 `2026-06-26`）  
 **收录状态**：填 `已收录` / `未收录` / `审核中`（以百度搜索 `site:xqtd-guide.com` 为准）

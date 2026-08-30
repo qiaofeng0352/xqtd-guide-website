@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>流萤配队推荐：4套超击破阵容深度解析（含循环轴）</title>
+<meta name="description" content="流萤配队专题：标准超击破队、二命进阶队、缺阮梅替代队、深渊实战队4套阵容详解，含出手循环轴、速度线要求、战技点管理和平民替换方案。">
+<meta name="keywords" content="流萤配队,流萤阵容,超击破队,流萤配队推荐,流萤阮梅,星穹铁道流萤">
+<link rel="canonical" href="https://xqtd-guide.com/guides/firefly-team.html">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://xqtd-guide.com/guides/firefly-team.html">
+<meta property="og:image" content="https://xqtd-guide.com/images/characters/firefly.jpg">
+<meta property="og:title" content="流萤配队推荐：4套超击破阵容深度解析">
+<meta property="og:description" content="流萤超击破配队专题：4套阵容+循环轴+速度线+战技点管理。">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "流萤配队推荐：4套超击破阵容深度解析",
+  "datePublished": "2026-08-30",
+  "dateModified": "2026-08-30",
+  "author": { "@type": "Person", "name": "星穹铁道攻略站" },
+  "publisher": { "@type": "Organization", "name": "星穹铁道攻略站", "url": "https://xqtd-guide.com" },
+  "inLanguage": "zh-CN"
+}
+</script>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="nav-container">
+    <a href="../index.html" class="logo">
+      <div class="logo-icon">SR</div>
+      <div class="logo-text">星穹铁道攻略站<small>崩坏：星穹铁道 | 单人原创攻略</small></div>
+    </a>
+    <nav>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="../index.html">首页</a></li>
+        <li><a href="team-qianye.html" class="active">角色配队</a></li>
+        <li><a href="abyss-xingqi.html">深渊攻略</a></li>
+        <li><a href="chest-pinnocchio.html">宝箱收集</a></li>
+        <li><a href="material-relic.html">材料速刷</a></li>
+        <li><a href="codes.html">兑换码</a></li>
+        <li><a href="../index.html#update">版本更新</a></li>
+        <li><a href="../pages/about.html">关于</a></li>
+      </ul>
+    </nav>
+    <button class="nav-mobile-toggle" onclick="document.getElementById('navLinks').classList.toggle('active')">&#9776;</button>
+  </div>
+</header>
+
+<div class="page-wrapper">
+  <main class="main-content">
+
+    <div class="article-header">
+      <div class="article-breadcrumb"><a href="../index.html">首页</a> / <a href="firefly-guide.html">流萤图鉴</a> / 配队专题</div>
+      <span class="card-tag team">配队专题</span>
+      <h1 class="article-title">流萤配队推荐：4套超击破阵容深度解析</h1>
+      <div class="article-meta">
+        <span>更新时间：2026.08.30</span>
+        <span>版本：4.5</span>
+        <span>适用：0+0 至 2+1 流萤</span>
+      </div>
+    </div>
+
+    <div class="article-body">
+      <div class="article-img-wrap"><img src="../images/characters/firefly.jpg" alt="流萤角色主题插画（AI原创）" class="article-img is-portrait" loading="eager" width="720" height="1080"></div>
+
+      <div class="callout callout-tip">
+        <strong>先看结论：</strong>流萤配队只有一个铁律——<strong>阮梅不可替代</strong>（击破效率+击破延长直接决定超击破伤害）。其余两个位置围绕「超击破倍率提供者 + 生存位」组合。预算从低到高：<a href="firefly-team.html#team1">标准超击破队</a> → <a href="firefly-team.html#team2">二命进阶队</a>。
+        <br><br>配套专题：<a href="firefly-guide.html">流萤图鉴</a> · <a href="firefly-lightcone.html">光锥选择</a> · <a href="firefly-relic.html">遗器搭配</a>
+      </div>
+
+      <h2>一、配队底层逻辑（为什么这么配）</h2>
+      <p>流萤的伤害大头是<strong>超击破</strong>：敌方处于弱点击破状态时，我方对它造成击破伤害额外触发一段超击破伤害。这个伤害由三个东西决定：</p>
+      <ul>
+        <li><strong>击破特攻</strong>：流萤自身面板（目标战内360%），吃遗器和行迹 → 详见<a href="firefly-relic.html">遗器专题</a></li>
+        <li><strong>击破效率</strong>：多快能把敌人打进击破状态 → 阮梅的不可替代性来源</li>
+        <li><strong>超击破倍率</strong>：同谐主（开拓者·同谐）战技提供，或者忘归人的额外机制</li>
+      </ul>
+      <p>所以配队公式就是：<strong>流萤 + 击破辅助（阮梅）+ 超击破倍率位 + 生存位</strong>。以下四套阵容都是这个公式的变体。</p>
+
+      <h2 id="team1">二、标准超击破队（0+0 首选，成型成本最低）</h2>
+      <p><strong>流萤 + 开拓者（同谐）+ 阮梅 + 加拉赫</strong></p>
+      <ul>
+        <li><strong>开拓者（同谐）</strong>：免费角色，战技提供超击破倍率，光锥带【舞！舞！舞！】拉条加速启动</li>
+        <li><strong>阮梅</strong>：击破效率+50%、击破状态延长，战技点宽松；光锥【记忆中的模样】</li>
+        <li><strong>加拉赫</strong>：免费奶爸，终结技给敌方挂【酩酊】易伤，战技回血+解控；光锥【等价交换】或【篝火】</li>
+      </ul>
+      <h3>出手循环轴（第一轮爆发）</h3>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>顺序</th><th>操作</th><th>说明</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>1</td><td>阮梅战技</td><td>挂减防+残梅绽（延迟击破）</td></tr>
+            <tr><td>2</td><td>同谐主战技</td><td>提前铺超击破倍率（注意：要在敌人被击破前挂上）</td></tr>
+            <tr><td>3</td><td>加拉赫战技/普攻</td><td>看血量决定，尽量攒点给流萤</td></tr>
+            <tr><td>4</td><td>流萤终结技</td><td>进入【完全燃烧】，速度大幅提升，战技不耗点</td></tr>
+            <tr><td>5</td><td>流萤强化战技 xN</td><td>先挂火弱再削韧，敌人破韧瞬间触发超击破</td></tr>
+            <tr><td>6</td><td>循环重复</td><td>阮梅/同谐主在流萤燃烧期间穿插增益</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="callout callout-warn">
+        <strong>常见错误：</strong>同谐主的超击破倍率战技要在敌人<strong>破韧之前</strong>使用才生效，自动战斗偶尔会乱序，手动深渊注意检查。
+      </div>
+
+      <h2 id="team2">三、二命进阶队（推荐，强度天花板）</h2>
+      <p><strong>流萤 + 忘归人 + 阮梅 + 灵砂</strong></p>
+      <ul>
+        <li><strong>忘归人</strong>：终结技【云火昭】让流萤击破瞬间的伤害再乘一个乘区，与流萤的火弱植入完美互补</li>
+        <li><strong>灵砂</strong>：易伤+解控+追击回血，生存与增伤兼顾，是流萤队的最优生存位</li>
+        <li><strong>加拉赫替代灵砂</strong>：预算不足时降配，强度约损失10-15%</li>
+      </ul>
+      <h3>与标准队的区别</h3>
+      <p>标准队同谐主提供的是「稳定的超击破倍率」，进阶队忘归人提供的是「击破瞬间的爆发乘区」。忘归人需要排轴：终结技覆盖流萤破韧的那一下，收益才能吃满。0魂流萤也能明显提升，2魂流萤提升幅度更大（额外回合意味着更多次破韧爆发）。</p>
+
+      <h2 id="team3">四、缺阮梅替代队（新手过渡）</h2>
+      <p><strong>流萤 + 开拓者（同谐）+ 佩拉/艾丝妲 + 加拉赫</strong></p>
+      <ul>
+        <li><strong>佩拉</strong>：群体减防，流萤队伍里收益可观的通用减伤辅助</li>
+        <li><strong>艾丝妲</strong>：加速+火伤加成，与流萤火属性契合</li>
+        <li>这套强度约为标准队的<strong>70%</strong>，过渡够用，抽到阮梅后立即替换</li>
+        <li>不要用停云/布洛妮娅：流萤不吃攻击加成转模和拉条（完全燃烧期间自己就是高速轴心），收益远低于常规主C</li>
+      </ul>
+
+      <h2 id="team4">五、深渊/虚构叙事实战调整</h2>
+      <ul>
+        <li><strong>混沌回忆</strong>：标准队即可，流萤是自动战斗体验最好的主C之一，0T/满星都轻松</li>
+        <li><strong>虚构叙事</strong>：把生存位换成姬子/黑塔等追击型副C，流萤燃烧期间的强化战技是扩散削韧，清杂效率高</li>
+        <li><strong>末日幻影</strong>：纯破韧环境，流萤是T0答案，忘归人优先级提到最高</li>
+        <li><strong>弱点点位：</strong>遇到无火弱点敌人，流萤秘技/强化战技自带挂火弱，不需要银狼植入弱点，这是她配队自由度高的核心原因</li>
+      </ul>
+
+      <h2>六、速度线与战技点速查表</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>角色</th><th>面板速度目标</th><th>战技点定位</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>流萤</td><td>150+（完全燃烧期间大幅提升）</td><td>燃烧期间不耗点，平时攒点</td></tr>
+            <tr><td>阮梅</td><td>134+</td><td>半产半耗，尽量普攻攒点</td></tr>
+            <tr><td>同谐主</td><td>134+</td><td>战技1点，靠【舞！舞！舞！】补价值</td></tr>
+            <tr><td>加拉赫</td><td>145+（先手解控）</td><td>终结技免耗点回血，主力产点</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="callout callout-tip">
+        <strong>总结：</strong>流萤队是当前<strong>练度回报率最高</strong>的体系之一——0+0+免费辅助即可满星深渊，抽阮梅 > 抽忘归人 > 抽灵砂，按这个顺序补强。
+      </div>
+
+      <div class="article-footer">
+        <div class="tags-row">
+          <span class="tag">流萤</span>
+          <span class="tag">配队推荐</span>
+          <span class="tag">超击破</span>
+          <span class="tag">深渊</span>
+          <span class="tag">阮梅</span>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <aside class="sidebar">
+    <div class="ad-slot promo-slot">
+      <div class="ad-slot-label">推荐</div>
+      <div class="ad-slot-content">
+        <strong>雷神加速器 · 星穹铁道</strong><br>
+        口令 <span class="promo-code">xqtd</span><br>
+        50 小时时长 + 95 折优惠券
+      </div>
+      <a href="https://www.leigod.com/activitys/exchangeWordOfCommand.html" class="btn btn-primary btn-small" target="_blank" rel="nofollow sponsored noopener" onclick="trackClick('accelerator-leigod')">去兑换口令</a>
+    </div>
+    <div class="sidebar-block">
+      <div class="sidebar-title">流萤专题</div>
+      <ul class="sidebar-list">
+        <li><a href="firefly-guide.html">流萤图鉴（总览）</a></li>
+        <li><a href="firefly-team.html">配队深度解析</a></li>
+        <li><a href="firefly-lightcone.html">光锥梯度排行</a></li>
+        <li><a href="firefly-relic.html">遗器词条攻略</a></li>
+      </ul>
+    </div>
+    <div class="sidebar-block">
+      <div class="sidebar-title">最新攻略</div>
+      <ul class="sidebar-list">
+        <li><a href="version-45-gacha.html">4.5卡池值得抽吗<span class="new-tag">NEW</span></a></li>
+        <li><a href="tribbie-guide.html">缇宝配队图鉴<span class="new-tag">NEW</span></a></li>
+        <li><a href="abyss-45.html">4.5深渊满星攻略<span class="new-tag">NEW</span></a></li>
+        <li><a href="codes.html">最新兑换码大全</a></li>
+        <li><a href="version-45-preview.html">4.5版本前瞻攻略</a></li>
+        <li><a href="firefly-guide.html">流萤图鉴</a></li>
+        <li><a href="team-qianye.html">千冶刃配队推荐</a></li>
+      </ul>
+    </div>
+    <div class="ad-slot promo-slot">
+      <div class="ad-slot-label">福利</div>
+      <div class="ad-slot-content">
+        <strong>雷神加速器 · 新用户</strong><br>
+        口令 <span class="promo-code">xqtd</span><br>
+        50 小时时长 + 95 折优惠券
+      </div>
+      <a href="https://www.leigod.com/activitys/exchangeWordOfCommand.html" class="btn btn-outline btn-small" target="_blank" rel="nofollow sponsored noopener" onclick="trackClick('cps-sidebar-common')">0 元领时长</a>
+    </div>
+  </aside>
+</div>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-links">
+      <a href="../index.html">首页</a>
+      <a href="../pages/about.html">关于本站</a>
+      <a href="../pages/privacy.html">隐私政策</a>
+      <a href="../pages/disclaimer.html">免责声明</a>
+    </div>
+    <div class="footer-copy">星穹铁道攻略站 &copy; 2026 xqtd-guide.com | 本站与 miHoYo / HoYoverse 无任何关联</div>
+  </div>
+</footer>
+<script src="../js/baidu-union.js"></script>
+<script src="../js/main.js"></script>
+</body>
+</html>
