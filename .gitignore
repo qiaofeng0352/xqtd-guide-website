@@ -15,3 +15,6 @@ desktop.ini
 # 临时文件
 *.tmp
 *.bak
+
+# 百度 API 推送列表（本地维护）
+urls.txt
