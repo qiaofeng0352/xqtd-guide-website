@@ -6,6 +6,11 @@
 **主域名**：https://xqtd-guide.com  
 **备用域名**：https://xqtd-guide-website.pages.dev（Cloudflare Pages，一般不必单独提交）
 
+> ⚠️ **URL 写法约定（2026-09-14 起）**：本表与 `sitemap.xml`、`urls.txt` 一律使用**无 `.html` 后缀**形式  
+> （如 `https://xqtd-guide.com/guides/codes`）。原因：Netlify 的 Pretty URLs 生效中，  
+> 所有 `.html` 地址会 **308 跳转**到无后缀地址，后者才是返回 200 的规范地址；  
+> 百度要求 sitemap 内为非跳转地址。站内 HTML 文件本身仍是 `.html`，此处只是"对外提交地址"的写法。
+
 ---
 
 ## 一、内容页（需提交百度收录）
@@ -13,35 +18,35 @@
 | # | 页面 | URL | 类型 | sitemap | 百度已提交 | 收录状态 | 最后更新 | 待补充 |
 |---|------|-----|------|---------|-----------|---------|---------|--------|
 | 1 | 首页 | https://xqtd-guide.com/ | 首页 | ✅ | | | 2026-08-18 | |
-| 2 | 4.5版本前瞻 | https://xqtd-guide.com/guides/version-45-preview.html | 攻略 | ✅ | | | 2026-08-17 | 截图、正文细化 |
-| 3 | 知更鸟夏空之歌攻略 | https://xqtd-guide.com/guides/robin-summeretto-guide.html | 攻略 | ✅ | | | 2026-08-17 | 截图、正文细化 |
-| 4 | 砂金戏波之夏攻略 | https://xqtd-guide.com/guides/aventurine-waveflair-guide.html | 攻略 | ✅ | | | 2026-08-17 | 截图、正文细化 |
-| 5 | 千冶刃配队 | https://xqtd-guide.com/guides/team-qianye.html | 攻略 | ✅ | | | 2026-06-26 | 截图、正文细化 |
-| 6 | 星启模式深渊 | https://xqtd-guide.com/guides/abyss-xingqi.html | 攻略 | ✅ | | | 2026-06-22 | 截图、正文细化 |
-| 7 | 匹诺康尼宝箱 | https://xqtd-guide.com/guides/chest-pinnocchio.html | 攻略 | ✅ | | | 2026-06-20 | 截图、正文细化 |
-| 8 | 材料/遗器速刷 | https://xqtd-guide.com/guides/material-relic.html | 攻略 | ✅ | | | 2026-06-18 | 截图、正文细化 |
-| 9 | 关于本站 | https://xqtd-guide.com/pages/about.html | 说明 | ✅ | | | 2026-06-26 | |
-| 10 | 隐私政策 | https://xqtd-guide.com/pages/privacy.html | 说明 | ✅ | | | 2026-06-26 | |
-| 11 | 免责声明 | https://xqtd-guide.com/pages/disclaimer.html | 说明 | ✅ | | | 2026-06-26 | |
-| 12 | 最新兑换码大全 | https://xqtd-guide.com/guides/codes.html | 兑换码 | ✅ | | | 2026-08-18 | 每版本更新兑换码 |
-| 13 | 流萤角色图鉴 | https://xqtd-guide.com/guides/firefly-guide.html | 角色图鉴 | ✅ | | | 2026-08-18 | |
-| 14 | 黄泉角色图鉴 | https://xqtd-guide.com/guides/acheron-guide.html | 角色图鉴 | ✅ | | | 2026-08-18 | |
-| 15 | 花火角色图鉴 | https://xqtd-guide.com/guides/sparkle-guide.html | 角色图鉴 | ✅ | | | 2026-08-18 | |
-| 16 | 阮梅角色图鉴 | https://xqtd-guide.com/guides/ruanmei-guide.html | 角色图鉴 | ✅ | | | 2026-08-18 | |
-| 17 | 镜流角色图鉴 | https://xqtd-guide.com/guides/jingliu-guide.html | 角色图鉴 | ✅ | | | 2026-08-18 | |
-| 18 | 丹恒·饮月图鉴 | https://xqtd-guide.com/guides/danheng-imbibitor-guide.html | 角色图鉴 | ✅ | | | 2026-08-18 | |
-| 19 | 卡芙卡角色图鉴 | https://xqtd-guide.com/guides/kafka-guide.html | 角色图鉴 | ✅ | | | 2026-08-18 | |
-| 20 | 黑天鹅角色图鉴 | https://xqtd-guide.com/guides/blackswan-guide.html | 角色图鉴 | ✅ | | | 2026-08-18 | |
-| 21 | 银狼角色图鉴 | https://xqtd-guide.com/guides/silverwolf-guide.html | 角色图鉴 | ✅ | | | 2026-08-18 | |
-| 22 | 布洛妮娅角色图鉴 | https://xqtd-guide.com/guides/bronya-guide.html | 角色图鉴 | ✅ | | | 2026-08-18 | |
-| 23 | 4.5卡池抽取分析 | https://xqtd-guide.com/guides/version-45-gacha.html | 抽卡攻略 | ✅ | | | 2026-08-30 | 关键词"4.5卡池值得抽吗" |
-| 24 | 4.5深渊满星攻略 | https://xqtd-guide.com/guides/abyss-45.html | 深渊攻略 | ✅ | | | 2026-08-30 | 关键词"4.5深渊满星" |
-| 25 | 缇宝角色图鉴 | https://xqtd-guide.com/guides/tribbie-guide.html | 角色图鉴 | ✅ | | | 2026-08-30 | 关键词"缇宝配队" |
-| 26 | 流萤配队专题 | https://xqtd-guide.com/guides/firefly-team.html | 专题子页 | ✅ | | | 2026-08-30 | 关键词"流萤配队"，长尾词矩阵试点 |
-| 27 | 流萤光锥专题 | https://xqtd-guide.com/guides/firefly-lightcone.html | 专题子页 | ✅ | | | 2026-08-30 | 关键词"流萤光锥"，长尾词矩阵试点 |
-| 28 | 流萤遗器专题 | https://xqtd-guide.com/guides/firefly-relic.html | 专题子页 | ✅ | | | 2026-08-30 | 关键词"流萤遗器"，长尾词矩阵试点 |
-| 29 | 4.6前瞻攻略 | https://xqtd-guide.com/guides/version-46-preview.html | 攻略 | ✅ | | | 2026-09-14 | 关键词"4.6前瞻/真珠卡池"，前瞻直播后24h更新 |
-| 30 | 加速器对比 | https://xqtd-guide.com/guides/accelerator-compare.html | 工具向 | ✅ | | | 2026-09-14 | 关键词"星穹铁道 加速器"，含雷神/迅游口令 CPS 推广位（已加广告标识） |
+| 2 | 4.5版本前瞻 | https://xqtd-guide.com/guides/version-45-preview | 攻略 | ✅ | | | 2026-08-17 | 截图、正文细化 |
+| 3 | 知更鸟夏空之歌攻略 | https://xqtd-guide.com/guides/robin-summeretto-guide | 攻略 | ✅ | | | 2026-08-17 | 截图、正文细化 |
+| 4 | 砂金戏波之夏攻略 | https://xqtd-guide.com/guides/aventurine-waveflair-guide | 攻略 | ✅ | | | 2026-08-17 | 截图、正文细化 |
+| 5 | 千冶刃配队 | https://xqtd-guide.com/guides/team-qianye | 攻略 | ✅ | | | 2026-06-26 | 截图、正文细化 |
+| 6 | 星启模式深渊 | https://xqtd-guide.com/guides/abyss-xingqi | 攻略 | ✅ | | | 2026-06-22 | 截图、正文细化 |
+| 7 | 匹诺康尼宝箱 | https://xqtd-guide.com/guides/chest-pinnocchio | 攻略 | ✅ | | | 2026-06-20 | 截图、正文细化 |
+| 8 | 材料/遗器速刷 | https://xqtd-guide.com/guides/material-relic | 攻略 | ✅ | | | 2026-06-18 | 截图、正文细化 |
+| 9 | 关于本站 | https://xqtd-guide.com/pages/about | 说明 | ✅ | | | 2026-06-26 | |
+| 10 | 隐私政策 | https://xqtd-guide.com/pages/privacy | 说明 | ✅ | | | 2026-06-26 | |
+| 11 | 免责声明 | https://xqtd-guide.com/pages/disclaimer | 说明 | ✅ | | | 2026-06-26 | |
+| 12 | 最新兑换码大全 | https://xqtd-guide.com/guides/codes | 兑换码 | ✅ | | | 2026-08-18 | 每版本更新兑换码 |
+| 13 | 流萤角色图鉴 | https://xqtd-guide.com/guides/firefly-guide | 角色图鉴 | ✅ | | | 2026-08-18 | |
+| 14 | 黄泉角色图鉴 | https://xqtd-guide.com/guides/acheron-guide | 角色图鉴 | ✅ | | | 2026-08-18 | |
+| 15 | 花火角色图鉴 | https://xqtd-guide.com/guides/sparkle-guide | 角色图鉴 | ✅ | | | 2026-08-18 | |
+| 16 | 阮梅角色图鉴 | https://xqtd-guide.com/guides/ruanmei-guide | 角色图鉴 | ✅ | | | 2026-08-18 | |
+| 17 | 镜流角色图鉴 | https://xqtd-guide.com/guides/jingliu-guide | 角色图鉴 | ✅ | | | 2026-08-18 | |
+| 18 | 丹恒·饮月图鉴 | https://xqtd-guide.com/guides/danheng-imbibitor-guide | 角色图鉴 | ✅ | | | 2026-08-18 | |
+| 19 | 卡芙卡角色图鉴 | https://xqtd-guide.com/guides/kafka-guide | 角色图鉴 | ✅ | | | 2026-08-18 | |
+| 20 | 黑天鹅角色图鉴 | https://xqtd-guide.com/guides/blackswan-guide | 角色图鉴 | ✅ | | | 2026-08-18 | |
+| 21 | 银狼角色图鉴 | https://xqtd-guide.com/guides/silverwolf-guide | 角色图鉴 | ✅ | | | 2026-08-18 | |
+| 22 | 布洛妮娅角色图鉴 | https://xqtd-guide.com/guides/bronya-guide | 角色图鉴 | ✅ | | | 2026-08-18 | |
+| 23 | 4.5卡池抽取分析 | https://xqtd-guide.com/guides/version-45-gacha | 抽卡攻略 | ✅ | | | 2026-08-30 | 关键词"4.5卡池值得抽吗" |
+| 24 | 4.5深渊满星攻略 | https://xqtd-guide.com/guides/abyss-45 | 深渊攻略 | ✅ | | | 2026-08-30 | 关键词"4.5深渊满星" |
+| 25 | 缇宝角色图鉴 | https://xqtd-guide.com/guides/tribbie-guide | 角色图鉴 | ✅ | | | 2026-08-30 | 关键词"缇宝配队" |
+| 26 | 流萤配队专题 | https://xqtd-guide.com/guides/firefly-team | 专题子页 | ✅ | | | 2026-08-30 | 关键词"流萤配队"，长尾词矩阵试点 |
+| 27 | 流萤光锥专题 | https://xqtd-guide.com/guides/firefly-lightcone | 专题子页 | ✅ | | | 2026-08-30 | 关键词"流萤光锥"，长尾词矩阵试点 |
+| 28 | 流萤遗器专题 | https://xqtd-guide.com/guides/firefly-relic | 专题子页 | ✅ | | | 2026-08-30 | 关键词"流萤遗器"，长尾词矩阵试点 |
+| 29 | 4.6前瞻攻略 | https://xqtd-guide.com/guides/version-46-preview | 攻略 | ✅ | | | 2026-09-14 | 关键词"4.6前瞻/真珠卡池"，前瞻直播后24h更新 |
+| 30 | 加速器对比 | https://xqtd-guide.com/guides/accelerator-compare | 工具向 | ✅ | | | 2026-09-14 | 关键词"星穹铁道 加速器"，含雷神/迅游口令 CPS 推广位（已加广告标识） |
 
 **百度已提交**：填 `是` / `否` / 提交日期（如 `2026-06-26`）  
 **收录状态**：填 `已收录` / `未收录` / `审核中`（以百度搜索 `site:xqtd-guide.com` 为准）
@@ -76,8 +81,8 @@
 
 | # | 页面 | URL | 类型 | sitemap | 百度已提交 | 收录状态 | 最后更新 | 待补充 |
 |---|------|-----|------|---------|-----------|---------|---------|--------|
-| 9 | （例：新角色攻略） | https://xqtd-guide.com/guides/________.html | 攻略 | | | | | 标题、正文、截图 |
-| 10 | | https://xqtd-guide.com/guides/________.html | 攻略 | | | | | |
+| 9 | （例：新角色攻略） | https://xqtd-guide.com/guides/________ | 攻略 | | | | | 标题、正文、截图 |
+| 10 | | https://xqtd-guide.com/guides/________ | 攻略 | | | | | |
 
 **新增页面检查清单**：
 - [ ] HTML 文件已放入 `guides/`
@@ -106,7 +111,7 @@
 
 ```
 https://xqtd-guide.com/
-https://xqtd-guide.com/guides/team-qianye.html
+https://xqtd-guide.com/guides/team-qianye
 https://xqtd-guide.com/sitemap.xml
 ```
 

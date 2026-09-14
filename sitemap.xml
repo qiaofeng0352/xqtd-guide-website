@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://xqtd-guide.com/</loc>
@@ -7,175 +8,175 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://xqtd-guide.com/guides/codes.html</loc>
+    <loc>https://xqtd-guide.com/guides/codes</loc>
     <lastmod>2026-09-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://xqtd-guide.com/guides/version-46-preview.html</loc>
+    <loc>https://xqtd-guide.com/guides/version-46-preview</loc>
     <lastmod>2026-09-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://xqtd-guide.com/guides/version-45-gacha.html</loc>
+    <loc>https://xqtd-guide.com/guides/version-45-gacha</loc>
     <lastmod>2026-08-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://xqtd-guide.com/guides/abyss-45.html</loc>
+    <loc>https://xqtd-guide.com/guides/abyss-45</loc>
     <lastmod>2026-08-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://xqtd-guide.com/guides/tribbie-guide.html</loc>
+    <loc>https://xqtd-guide.com/guides/tribbie-guide</loc>
     <lastmod>2026-08-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://xqtd-guide.com/guides/version-45-preview.html</loc>
+    <loc>https://xqtd-guide.com/guides/version-45-preview</loc>
     <lastmod>2026-08-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://xqtd-guide.com/guides/robin-summeretto-guide.html</loc>
+    <loc>https://xqtd-guide.com/guides/robin-summeretto-guide</loc>
     <lastmod>2026-08-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://xqtd-guide.com/guides/aventurine-waveflair-guide.html</loc>
+    <loc>https://xqtd-guide.com/guides/aventurine-waveflair-guide</loc>
     <lastmod>2026-08-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://xqtd-guide.com/guides/firefly-guide.html</loc>
+    <loc>https://xqtd-guide.com/guides/firefly-guide</loc>
     <lastmod>2026-08-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://xqtd-guide.com/guides/firefly-team.html</loc>
+    <loc>https://xqtd-guide.com/guides/firefly-team</loc>
     <lastmod>2026-08-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://xqtd-guide.com/guides/firefly-lightcone.html</loc>
+    <loc>https://xqtd-guide.com/guides/firefly-lightcone</loc>
     <lastmod>2026-08-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://xqtd-guide.com/guides/firefly-relic.html</loc>
+    <loc>https://xqtd-guide.com/guides/firefly-relic</loc>
     <lastmod>2026-08-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://xqtd-guide.com/guides/acheron-guide.html</loc>
+    <loc>https://xqtd-guide.com/guides/acheron-guide</loc>
     <lastmod>2026-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://xqtd-guide.com/guides/sparkle-guide.html</loc>
+    <loc>https://xqtd-guide.com/guides/sparkle-guide</loc>
     <lastmod>2026-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://xqtd-guide.com/guides/ruanmei-guide.html</loc>
+    <loc>https://xqtd-guide.com/guides/ruanmei-guide</loc>
     <lastmod>2026-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://xqtd-guide.com/guides/jingliu-guide.html</loc>
+    <loc>https://xqtd-guide.com/guides/jingliu-guide</loc>
     <lastmod>2026-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://xqtd-guide.com/guides/danheng-imbibitor-guide.html</loc>
+    <loc>https://xqtd-guide.com/guides/danheng-imbibitor-guide</loc>
     <lastmod>2026-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://xqtd-guide.com/guides/kafka-guide.html</loc>
+    <loc>https://xqtd-guide.com/guides/kafka-guide</loc>
     <lastmod>2026-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://xqtd-guide.com/guides/silverwolf-guide.html</loc>
+    <loc>https://xqtd-guide.com/guides/silverwolf-guide</loc>
     <lastmod>2026-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://xqtd-guide.com/guides/blackswan-guide.html</loc>
+    <loc>https://xqtd-guide.com/guides/blackswan-guide</loc>
     <lastmod>2026-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://xqtd-guide.com/guides/bronya-guide.html</loc>
+    <loc>https://xqtd-guide.com/guides/bronya-guide</loc>
     <lastmod>2026-08-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://xqtd-guide.com/guides/team-qianye.html</loc>
+    <loc>https://xqtd-guide.com/guides/team-qianye</loc>
     <lastmod>2026-06-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://xqtd-guide.com/guides/abyss-xingqi.html</loc>
+    <loc>https://xqtd-guide.com/guides/abyss-xingqi</loc>
     <lastmod>2026-06-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://xqtd-guide.com/guides/chest-pinnocchio.html</loc>
+    <loc>https://xqtd-guide.com/guides/chest-pinnocchio</loc>
     <lastmod>2026-06-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://xqtd-guide.com/guides/material-relic.html</loc>
+    <loc>https://xqtd-guide.com/guides/material-relic</loc>
     <lastmod>2026-06-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://xqtd-guide.com/pages/about.html</loc>
+    <loc>https://xqtd-guide.com/pages/about</loc>
     <lastmod>2026-06-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://xqtd-guide.com/pages/privacy.html</loc>
+    <loc>https://xqtd-guide.com/pages/privacy</loc>
     <lastmod>2026-06-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://xqtd-guide.com/pages/disclaimer.html</loc>
+    <loc>https://xqtd-guide.com/pages/disclaimer</loc>
     <lastmod>2026-06-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://xqtd-guide.com/guides/accelerator-compare.html</loc>
+    <loc>https://xqtd-guide.com/guides/accelerator-compare</loc>
     <lastmod>2026-09-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
