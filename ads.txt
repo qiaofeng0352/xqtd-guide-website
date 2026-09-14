@@ -1,3 +1,5 @@
-# 可选：Google AdSense 验证用（当前未启用）
-# 本站主收益为 CPS 推广（雷神加速器等），无需 ads.txt 也可运营
-google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
+# ads.txt —— 授权数字广告销售商文件
+# 当前站点主收益为 CPS 推广（雷神/迅游加速器等），未接入程序化广告联盟。
+# 若将来启用 Google AdSense，请在此处替换为真实发布商 ID，格式：
+# google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
+# 占位 ID（pub-0000...）会导致 AdSense 校验失败，故此处暂不写入任何条目。
