@@ -47,6 +47,7 @@
 | 28 | 流萤遗器专题 | https://xqtd-guide.com/guides/firefly-relic | 专题子页 | ✅ | | | 2026-08-30 | 关键词"流萤遗器"，长尾词矩阵试点 |
 | 29 | 4.6前瞻攻略 | https://xqtd-guide.com/guides/version-46-preview | 攻略 | ✅ | | | 2026-09-14 | 关键词"4.6前瞻/真珠卡池"，前瞻直播后24h更新 |
 | 30 | 加速器对比 | https://xqtd-guide.com/guides/accelerator-compare | 工具向 | ✅ | | | 2026-09-14 | 关键词"星穹铁道 加速器"，含雷神/迅游口令 CPS 推广位（已加广告标识） |
+| 31 | 真珠角色攻略 | https://xqtd-guide.com/guides/pearl-guide | 攻略 | ✅ | | | 2026-09-21 | 关键词"真珠配队/遗器/光锥"，4.6新角色，欢愉队生存位 |
 
 **百度已提交**：填 `是` / `否` / 提交日期（如 `2026-06-26`）  
 **收录状态**：填 `已收录` / `未收录` / `审核中`（以百度搜索 `site:xqtd-guide.com` 为准）
